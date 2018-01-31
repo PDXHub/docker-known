@@ -1,4 +1,4 @@
-FROM known
+FROM pdxhub/known-docker
 
 RUN cd /usr/src/known/IdnoPlugins \
  && curl -L https://github.com/idno/Twitter/archive/master.zip -o twitter.zip \
